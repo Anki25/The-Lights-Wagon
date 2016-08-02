@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+<title> Sign Up </title>
+<meta charset="ISO-8859-1">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+  <div class="navbar-header">
+  <a href="#" class="navbar-brand">THE LIGHTS WAGON</a> 
+  </div>
+  <div>
+  <ul class="nav navbar-nav">
+  <li><a href="HOME.html">Home</a></li>
+  <li><a href="#">About Us</a></li>
+  <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+  </div>
+</nav>
+
+<!-- <div data-role="page" style="background:url('img.jpg'); background-repeat: no-repeat; background-size: 100% 100%;" -->
+<center>
+<h1>Registration</h1>
+<p>ALREADY REGISTERED? <a href= "SIGN IN.html">SIGN IN</a></p>
+<form method="post" action="ValidateSignUp">   
+<table>
+<tr><td>
+Enter Name</td><td><input type="text" name="txtname" placeholder="Enter name in Caps" required></td></tr><br>
+<tr><td>
+Enter Password</td><td><input type="password" name="txtpass" placeholder="Password must have 6 characters"></td></tr><br>
+<tr><td>
+Enter Confirmed Password</td><td><input type="password" name="textcpass"></td></tr>
+<tr><td>
+Enter Date of Birth</td><td><input type="date" name="dob"></td></tr><br>
+<tr><td>
+Enter phone no.</td><td><input type="number" name="ph"></td></tr><br>
+<tr><td>
+Enter Address</td><td><textarea rows="4" cols="30" name="txtadd"></textarea></td></tr><br> 
+<tr><td>
+Gender</td><td>
+Male<input type="radio" name="r"><br>   
+Female<input type="radio" name="r" checked><br>  
+</td></tr>
+<tr><td>
+City</td><td><SELECT><option value="opt1">Select Your City</option>
+<option value="opt3">DELHI</option>
+<option value="opt4">MUMBAI</option>
+<option value="opt5">CHENNAI</option>
+<option value="opt6">BENGALURU</option>
+<option value="opt7">HYDERABAD</option>
+<option value="opt8">KOCHI</option>
+<option value="opt9">BHOPAL</option>
+<option value="opt10">BHUBANESWAR</option>
+<option value="opt11">KOLKATA</option>
+<option value="opt12">JAIPUR</option>
+<option value="opt13">OTHERS..</option>
+</td><tr>
+<tr><td>
+Enter Email Id</td><td><input type="email" name="email"></td></tr><br><br>
+<tr><td>
+<INPUT TYPE="CHECKBOX" NAME="OFFER" CHECKED>I agree to receive information about exciting offers
+</td></tr><br>
+<tr><td>
+<input type="submit" name="submit"></td><td>
+<input type="reset" name="reset"></td></tr>
+</table>
+</form>
+</center>
+</body>
+</html>
